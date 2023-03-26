@@ -1,23 +1,23 @@
 ﻿string A = Console.ReadLine();
 string B = Console.ReadLine();
-string С = Console.ReadLine();
+string X = Console.ReadLine();
 
 int numA = Convert.ToInt32(A);
 int numB = Convert.ToInt32(B);
-int numС = Convert.ToInt32(С);
+int numX = Convert.ToInt32(X);
 
 if (numA > numB)
 {
-    if (numA > numC){
+    if (numA > numX){
         Console.WriteLine(numA);
      }
-    else Console.WriteLine(numC);
+    else Console.WriteLine(numX);
 
 }
-else if (numB > numC)
+else if (numB > numX)
 {
     Console.WriteLine(numB);
 }
 else{
-    Console.WriteLine(numC);
+    Console.WriteLine(numX);
 }
